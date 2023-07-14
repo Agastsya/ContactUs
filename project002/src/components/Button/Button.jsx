@@ -1,8 +1,8 @@
 import styles from "./buttontop.modules.css";
-const Button = ({ isOutline, text, icon, classButton }) => {
+const Button = ({ isOutline, text, icon, classButton, ...rest }) => {
   return (
     <div>
-      <button className={classButton}>
+      <button {...rest} className={classButton}>
         {icon}
         {text}
       </button>
