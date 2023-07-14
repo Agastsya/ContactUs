@@ -1,4 +1,7 @@
 .contactform {
-  display: flex;
   max-width: 1000px;
+}
+.top_btn {
+  display: flex;
+  gap: 24px;
 }
